@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3d3d3d;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  gap: 10rem;
+  height: 100vh;
+
+  h1 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .btnLed {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btnLed:hover {
+    background-color: #0056b3;
+  }
+  .btnLed:active {
+    background-color: #004085;
+  }
+}
