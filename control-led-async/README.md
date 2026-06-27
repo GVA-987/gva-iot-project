@@ -21,3 +21,17 @@ Sigue estos pasos en **PlatformIO** para subir todo correctamente:
 - **Gestor:** PlatformIO (VS Code)
 - **Librerías:** ESPAsyncWebServer, AsyncTCP
 - **Frontend:** HTML5, CSS3, JavaScript Vanilla
+
+## Diagramas de Conexión
+
+### 1. Configuración básica con LED
+
+Para pruebas rápidas y de bajo consumo en tu protoboard. Recuerda usar una resistencia de 220Ω o 330Ω para no quemar el componente.
+
+![Diagrama ESP32 con LED](./images/led.png)
+
+### 2. Configuración con Módulo Relay
+
+Utiliza esta opción si vas a controlar cargas más grandes (como bombillas de luz caseras, motores, etc.).
+
+![Diagrama ESP32 con Relay](./images/relay.png)
